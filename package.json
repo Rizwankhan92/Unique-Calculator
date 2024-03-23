@@ -1,0 +1,23 @@
+{
+  "name": "@rizwan_khan/unique-calculator",
+  "version": "1.0.0",
+  "description": "CLI Calculator with CMD... (enter first number then select operator then enter second number and get your answer)",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Rizwan",
+  "license": "MIT",
+  "dependencies": {
+    "@rizwan_khan/unique-calculator": "^1.0.0",
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
